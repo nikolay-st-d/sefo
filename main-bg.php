@@ -7,7 +7,7 @@
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<title>Сейфетин Шекеров - Сефо | Скулптор</title>
 	<meta name="description"
-		content="Биография на Сейфетин Шекеров - скулптор. Малка пластика, монумантална скулптура, рисунки.">
+		content="Официален сайт на Сейфетин Шекеров - Сефо. Скулптор, малка пластика, монумантална скулптура, рисунки.">
 	<?php include('header-commons.php'); ?>
 </head>
 
