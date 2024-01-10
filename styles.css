@@ -51,55 +51,6 @@ img {
     flex-wrap: wrap;
 }
 
-.main-graph img {
-	height: 99vh;
-}
-@media (max-width:1200px) {
-	.main-graph img {
-		height: auto;
-		max-height: 75vh;
-		width: 100%;
-	}
-}
-.main-page {
-	width: auto;
-	height: 10vh;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	padding-top: 45vh;
-	padding-bottom: 45vh;
-}
-@media (max-width: 1200px) {
-	.main-page {
-		width: 100%;
-		height: 10vh;
-		text-align: center;
-		vertical-align: middle;
-		padding-top: 5vh;
-		padding-bottom: 5vh;
-	}
-}
-.home-buttons {
-    font-size: 1.1em;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-.home-buttons a:link {
-	color: var(--main-font-color);
-	text-decoration: none;
-}
-.home-buttons a:visited {
-	color: var(--main-font-color);
-	text-decoration: none;
-}
-.home-buttons a:hover {
-	color: #bdb5a6;
-	text-decoration: none;
-	transition: 0.8s ease;
-}
-
 .container-top-nav {
 	background-color: #0e1312;
 	width: 100%;
