@@ -20,7 +20,7 @@ body {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-image: linear-gradient(to right bottom, #0f0e0d, #100f0e, #11110e, #12120f, #131310, #161612, #181814, #1b1a16, #201f19, #25231d, #2b2820, #302d24);
+	background-image: linear-gradient(to left bottom, #0f0e0d, #100f0e, #11110e, #12120f, #131310, #161612, #181814, #1b1a16, #201f19, #25231d, #2b2820, #302d24);
 }
 a {
 	transition: 0.8s ease;
