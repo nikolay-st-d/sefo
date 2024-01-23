@@ -1,6 +1,12 @@
 :root {
   --main-font-color: #868075;
 }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 10vh;
@@ -22,6 +28,9 @@ body {
   padding: 0px;
   text-wrap: balance;
 }
+p {
+  margin-bottom: 1em;
+}
 a {
   transition: 0.8s ease;
 }
@@ -29,9 +38,11 @@ a:hover {
   transition: 0.8s ease;
 }
 h1 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 1.8em;
+  font-weight: 300;
   color: var(--main-font-color);
+  padding-top: 105px;
+  padding-bottom: 35px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -39,8 +50,10 @@ h1 {
   }
 }
 h2 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 1.4em;
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 30px;
 }
 img {
   max-width: 100%;
