@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="styles/lightbox.min.css">

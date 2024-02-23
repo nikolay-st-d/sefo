@@ -6,14 +6,14 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <title>Рисунки | Сейфетин Шекеров - Сефо</title>
 <meta name="description" content="Галерия рисунки от Сейфетин Шекеров - Сефо.">
-<link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="styles/lightbox.min.css">
 <?php include('header-commons.php'); ?>
 </head>
 <body>
-<div class="main-container">
-	<?php include("header_bg.php"); ?>
-	<div class="container-main-block-full-width">
-		<h1>Рисунки</h1>
+<?php include("header_bg.php"); ?>
+<main>
+	<h1>Рисунки</h1>
+	<section class="gallery-wrapper">
         <a href="gal/draw/hr/draw_01.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_01.jpg" class="gallery_images" /></a>
 		<a href="gal/draw/hr/draw_02.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_02.jpg" class="gallery_images" /></a>
 		<a href="gal/draw/hr/draw_03.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_03.jpg" class="gallery_images" /></a>
@@ -29,9 +29,10 @@
 		<a href="gal/draw/hr/draw_13.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_13.jpg" class="gallery_images" /></a>
 		<a href="gal/draw/hr/draw_14.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_14.jpg" class="gallery_images" /></a>
 		<a href="gal/draw/hr/draw_15.jpg" data-lightbox="gallery" title="Рисунка - Сефо"><img src="gal/draw/tn/draw_15.jpg" class="gallery_images" /></a>
-	</div>
-	<?php include("footer_bg.php"); ?>
-</div>
+		</section>
+	<a id="up-button" href="#">нагоре</a>
+</main>
+<?php include("footer_bg.php"); ?>
 <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

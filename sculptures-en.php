@@ -6,14 +6,14 @@
 <link href="styles.css" rel="stylesheet" type="text/css">
 <title>Sculptures by Seyfettin Shekerov - Sefo</title>
 <meta name="description" content="GALLERY Sculptures by Seyfettin Shekerov - Sefo. Little plastics..">
-<link rel="stylesheet" href="css/lightbox.min.css">
+<link rel="stylesheet" href="styles/lightbox.min.css">
 <?php include('header-commons.php'); ?>
 </head>
 <body>
-<div class="main-container">
-	<?php include("header_en.php"); ?>
-	<div class="container-main-block-full-width">
-		<h1>Sculptures</h1>
+<?php include("header_en.php"); ?>
+<main>
+<h1>Sculptures</h1>
+	<section class="gallery-wrapper">
         <a href="gal/small/hr/sefo_001.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_001.jpg" class="gallery_images" /></a>
 		<a href="gal/small/hr/sefo_002.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_002.jpg" class="gallery_images" /></a>
 		<a href="gal/small/hr/sefo_003.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_003.jpg" class="gallery_images" /></a>
@@ -82,9 +82,10 @@
 		<a href="gal/small/hr/sefo_066.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_066.jpg" class="gallery_images" /></a>
 		<a href="gal/small/hr/sefo_067.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_067.jpg" class="gallery_images" /></a>
 		<a href="gal/small/hr/sefo_068.jpg" data-lightbox="gallery" title="Sculpure by Sefo"><img src="gal/small/tn/sefo_068.jpg" class="gallery_images" /></a>
-	</div>
-	<?php include("footer_en.php"); ?>
-</div>
+		</section>
+	<a id="up-button" href="#">To Top</a>
+</main>
+<?php include("footer_en.php"); ?>
 <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>

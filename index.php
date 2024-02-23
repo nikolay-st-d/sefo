@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="styles/index.css" rel="stylesheet" type="text/css">
   <title>Сейфетин Шекеров - Сефо | Seyfettin Shekerov - Sefo</title>
   <meta name="description"
     content="Сейфетин Шекеров - скулптор. Малка пластика, монументална скулптура, рисунки. Seyfettin Shekerov - Bulgarin sculpture artist">

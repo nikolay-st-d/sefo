@@ -12,14 +12,15 @@
 </head>
 
 <body>
-	<div class="main-container">
-		<?php include("header_bg.php"); ?>
-		<div id="start" class="container-main-block-full-width">
-			<div class="main-block">
-				<h1>Сейфетин Шекеров - Сефо</h1>
-				<p><img src="images/sefo_02.webp" alt="Сейфетин Шекеров - Сефо"></p>
-			</div>
+	<?php include("header_bg.php"); ?>
+	<main>
+		<div id="start" class="container-main-block">
+
+			<h1>Сейфетин Шекеров - Сефо</h1>
+			<img src="images/sefo_02.webp" alt="Сейфетин Шекеров - Сефо">
+
 		</div>
+
 		<div id="bio" class="container-main-block">
 			<div class="main-block">
 				<h2>Биография</h2>
@@ -33,20 +34,26 @@
 				<p><img src="images/sefo_01.webp" alt="Биография Сейфетин Шекеров - Сефо"></p>
 			</div>
 		</div>
+
 		<div id="gal" class="container-main-block">
 			<div class="main-block">
 				<h2>Галерии</h2>
 			</div>
-			<div class="main-block">
-				<div class="galleries-menu-thumbs"><a href="sculptures-bg.php" title="Малка пластика, скулптури"><img
+			<div class="main-block" id="gallery-links">
+				<div class="galleries-menu-thumbs">
+					<a href="sculptures-bg.php" title="Малка пластика, скулптури"><img
 							src="images/sculptures-gallery.webp" alt="Малка пластика и скулптура" /><br>Скулптури</a>
 				</div>
-				<div class="galleries-menu-thumbs"><a href="monuments-bg.php" title="Монументални скулптури"><img
-							src="images/monuments-gallery.webp" alt="Монументални скулптури" /><br>Монументи</a></div>
+				<div class="galleries-menu-thumbs">
+					<a href="monuments-bg.php" title="Монументални скулптури"><img src="images/monuments-gallery.webp"
+							alt="Монументални скулптури" /><br>Монументи</a>
+				</div>
 				<div class="galleries-menu-thumbs"><a href="drawings-bg.php" title="Рисунки"><img
-							src="images/drawings-gallery.webp" alt="Рисунки" /><br>Рисунки</a></div>
+							src="images/drawings-gallery.webp" alt="Рисунки" /><br>Рисунки</a>
+				</div>
 			</div>
 		</div>
+
 		<div id="contacts" class="container-main-block">
 			<div class="main-block">
 				<h2>Контакти</h2>
@@ -59,8 +66,8 @@
 				<p><img src="images/fish_01.webp" alt="РИБА от Сефо"></p>
 			</div>
 		</div>
-		<?php include("footer_bg.php"); ?>
-	</div>
+	</main>
+	<?php include("footer_bg.php"); ?>
 </body>
 
 </html>

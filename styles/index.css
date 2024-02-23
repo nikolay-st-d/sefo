@@ -1,25 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;600;800&display=swap");
+
 :root {
   --main-font-color: #868075;
 }
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 10vh;
-  height: 100%;
-}
-@media (max-width: 900px) {
-  html {
-    scroll-padding-top: 1vh;
-  }
-}
-body {
-  background-color: #181714;
   color: var(--main-font-color);
   font-family: Montserrat Alternates, Verdana, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+  
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #181714;
+  height: 100vh;
   background-image: linear-gradient(
     to left bottom,
     #0f0e0d,
@@ -43,21 +45,29 @@ a:hover {
   transition: 0.8s ease;
 }
 h1 {
-  font-size: 30px;
+  font-size: 0.9em;
   font-weight: 400;
   color: var(--main-font-color);
 }
-@media (max-width: 900px) {
+@media (min-width: 300px) {
   h1 {
-    font-size: 22px;
+    font-size: 1em;
   }
 }
-h2 {
-  font-size: 24px;
-  font-weight: 600;
+@media (min-width: 350px) {
+  h1 {
+    font-size: 1.1em;
+  }
 }
-img {
-  max-width: 100%;
+@media (min-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1400px) {
+  h1 {
+    font-size: 2em;
+  }
 }
 
 .main-container {
@@ -71,9 +81,9 @@ img {
 }
 @media (max-width: 1200px) {
   .main-graph img {
+    width: 100%;
     height: auto;
     max-height: 75vh;
-    width: 100%;
   }
 }
 .main-page {
@@ -97,13 +107,9 @@ img {
   }
 }
 .home-buttons {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 0.8em 0;
 }
-.home-buttons a:link {
-  color: var(--main-font-color);
-  text-decoration: none;
-}
+.home-buttons a:link,
 .home-buttons a:visited {
   color: var(--main-font-color);
   text-decoration: none;

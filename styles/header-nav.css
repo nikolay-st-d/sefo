@@ -1,0 +1,94 @@
+.top-nav-container {
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #0e1312;
+  border-bottom: #2b3f34 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .top-nav-container {
+    height: auto;
+    padding-top: 0;
+  }
+}
+
+.nav {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 750px) {
+  .nav {
+    width: auto;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.nav a {
+  display: block;
+  color: #8f8983;
+  text-align: center;
+  padding: 0.1em;
+  margin: 0.3em 0.7em;
+  text-decoration: none;
+  transition: 0.8s ease;
+}
+
+.nav a:hover {
+  color: #dadada;
+  transition: 0.8s ease;
+}
+
+.nav a.active {
+  color: #dadada;
+  transition: 0.8s ease;
+}
+
+.nav .icon {
+  display: none;
+  transition: 0.8s ease;
+}
+
+@media screen and (max-width: 750px) {
+  .nav a:not(:first-child) {
+    display: none;
+    transition: 0.8s ease;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+    transition: 0.8s ease;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav.responsive {
+    position: relative;
+    transition: 0.8s ease;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 0.8s ease;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    transition: 0.8s ease;
+  }
+}

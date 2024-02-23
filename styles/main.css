@@ -1,0 +1,71 @@
+:root {
+  --main-font-color: #868075;
+}
+html {
+  color: var(--main-font-color);
+  font-family: "Montserrat Alternates", Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-wrap: balance;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
+  height: 100%;
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
+img {
+  border-radius: 0.2em;
+}
+body {
+  min-height: 100vh;
+  background-color: #181714;
+  background-image: linear-gradient(to right, #0b0a09, #110f0d, #151411, #191714, #1c1b17, #1c1b17, #1c1b17, #1c1b17, #191714, #151411, #110f0d, #0b0a09);
+}
+header {
+  width: 100%;
+}
+main {
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  main {
+    width: 1200px;
+  }
+}
+footer {
+  width: 100%;
+}
+
+p {
+  margin-bottom: 1em;
+}
+a {
+  transition: 0.8s ease;
+}
+a:hover {
+  transition: 0.8s ease;
+}
+h1 {
+  font-size: 1.8em;
+  font-weight: 300;
+  color: var(--main-font-color);
+  padding: 1em 0;
+  text-align: center;
+}
+h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+}
+img {
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
