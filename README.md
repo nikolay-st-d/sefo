@@ -1,4 +1,4 @@
-Website of the sculture artist Seyfettin Shekerov - Sefo
+# Website of the sculture artist Seyfettin Shekerov - Sefo
 
 _Fast and secure static website designed with simplicity in mind. Created with PHP, JavaScript, CSS and HTML, Photos by me (Nikolay Dimitrov)_
 
