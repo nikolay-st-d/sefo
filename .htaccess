@@ -1,0 +1,31 @@
+RewriteEngine On
+
+#### Force HTTPS://WWW and remove trailing / from files
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+rewritecond %{http_host} ^sefobg.com [nc]
+rewriterule ^(.*)$ https://www.sefobg.com/$1 [r=301,nc]
+
+# Redirect index files to root
+RewriteCond %{THE_REQUEST} ^.*/index.php 
+RewriteRule ^(.*)index.php$ /$1 [QSD,R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.htm 
+RewriteRule ^(.*)index.htm$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^.*/index.html 
+RewriteRule ^(.*)index.html$ /$1 [R=301,L]
+
+ErrorDocument 404 /404.php
+
+# cache 1 Month for most static assets
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|webp)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+#redirect old pages
+Redirect 301 /bio_bg.php /main-bg.php
+Redirect 301 /bio_en.php /main-en.php
+Redirect 301 /exhibitions_bg.php /main-bg.php
+Redirect 301 /exhibitions_en.php /main-en.php
