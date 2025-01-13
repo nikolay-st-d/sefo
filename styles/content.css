@@ -106,6 +106,7 @@ main {
   border-radius: 0.4em;
   padding: 0.4em 0.8em;
   margin: 1em 0;
+  cursor: pointer;
 }
 .close-tab-button:hover {
   background-color: #7dacac;
