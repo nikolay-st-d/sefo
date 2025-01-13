@@ -7,11 +7,11 @@
 	<link href="styles.css" rel="stylesheet" type="text/css">
 	<title>Списък изложби | Сейфетин Шекеров - Сефо</title>
 	<meta name="description" content="Списък на изложбите на Сейфетин Шекеров - Сефо.">
-	<?php include('header-commons.php'); ?>
+	<?php include 'header-commons.php'; ?>
 </head>
 
 <body>
-	<?php include("header_bg.php"); ?>
+	<?php include "header_bg.php"; ?>
 	<main>
 		<div id="bio" class="container-main-block">
 			<div id="exhibitions-list" class="container-main-block">
@@ -47,20 +47,44 @@
 					2009 - посолство на България в Кувейт<br>
 					2009 - арт-форум "Тюяп", Истанбул, Турция<br>
 					2012 - арт-форум "Тюяп", Истанбул, Турция<br>
-					2013 - галерия "Стойчев", Ямбол</p>
+					2013 - галерия "Стойчев", Ямбол<br>
+					2014 - галерия "Arthop", Измир, Турция<br>
+					2015 - галерия "Tower", София<br>
+					2018 - Оман<br>
+					2021 - галерия "Минерва", София<br>
+					2021 - галерия "Артистика", Пловдив<br>
+					2022 - галерия "Ателие-R" - Бургас<br>
+					2023 - Културен дом - Струмица, Сев. Македония<br>
+					2023 - галерия "Богориди" - Бургас<br>
+					2024 - галерия "Арт Маркони" - Варна<br>
+					2024 - "Настрадин Ходжа и Хитър Петър" - Момчилград
+				</p>
 
 				<p>Съавтор на телевизионната награда "Златна антена"</p>
 
 				<p>Автор на монументални скулптури:<br>
-					1997 - хотел "Империя", Сливен<br>
-					2005 - хотел "Орфей", Девин<br>
-					2005 - София<br>
-					2006 - Ловеч</p>
-				<button class="close-tab-button" type="button" onclick="javascript:window.close();">Затвори</button>
+					1997 - "Композиция", хотел "Империя", Сливен<br>
+					2005 - "Орфей", хотел "Орфей", Девин<br>
+					2006 - "Композиция", Национална гвардейска част, София<br>
+					2007 - "Конник", Ловеч<br>
+					2008 - "Екзарх Йосиф", Ловеч<br>
+					2013 - "Русалка", Бургас<br>
+					2014 - "Христо Ботев", Девин<br>
+					2015 - "Живко Сталев", София<br>
+					2019 - "Вечен огън", Каолиново<br>
+					2020 - "Кораб", Мускат, Оман
+				</p>
+				<button id="close-button" class="close-tab-button">Затвори този раздел</button>
 			</div>
 		</div>
 	</main>
-	<?php include("footer_bg.php"); ?>
+	<?php include "footer_bg.php"; ?>
+	<script type="text/javascript">
+		const button = document.getElementById("close-button");
+		button.addEventListener("click", function() {
+			window.close();
+		});
+	</script>
 </body>
 
 </html>
